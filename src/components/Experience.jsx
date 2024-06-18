@@ -47,8 +47,8 @@ function Experience() {
                 
                 {
                     cardItem.map(({id, logo, name}) => (
-                        <div className='rounded-full w-[200px] h-[200px] shadow-xl hover:scale-105 duration-200 flex flex-col items-center justify-center' key={id}>
-                            <img src={logo} alt="" className='w-[150px] h-[150px] rounded-full border-[2px] object-cover'/>
+                        <div className='rounded-full w-[150px] h-[150px] shadow-xl hover:scale-105 duration-200 flex flex-col items-center justify-center' key={id}>
+                            <img src={logo} alt="" className='w-[100px] h-[100px] rounded-full border-[2px] object-cover'/>
                             
                             <p>{name}</p>
                         </div>
