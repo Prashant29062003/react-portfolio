@@ -49,7 +49,7 @@ function Projects() {
                 {
                     cardItem.map(({id, logo, name, link}) => (
                         <div className='md:w-[300px] md:h-[300px] mt-4 rounded-lg shadow-xl p-1 hover:scale-105 duration-200 flex flex-col items-center justify-around' key={id}>
-                            <a href={link} target="_blank"><img src={logo} alt="" className='w-16 h-16 rounded-full border-[2px] object-cover'/></a>
+                            <a href={link} target="_blankproject"><img src={logo} alt="" className='w-16 h-16 rounded-full border-[2px] object-cover'/></a>
                             <div className='flex flex-col items-center text-center'>
                                 <h4 className='font-semibold text-xl mb-2'>{name}</h4>
                                 <p className='text-sm font-medium px-2 text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo molestiae, </p>
