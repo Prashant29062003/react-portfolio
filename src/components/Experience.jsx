@@ -2,14 +2,15 @@ import React from 'react'
 import { DiJava, DiReact } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { SiExpress, SiPython } from 'react-icons/si'
-import pic from "../assets/img/42.jpg"
+import pic from "../assets/img/logo.jpg"
 
 function Experience() {
     const cardItem = [
         {
             id: 1,
             logo: pic,
-            name: "Mongodb"
+            name: "Bhojan.",
+            link: "https://bhojan-del.netlify.app/"
         },
         {
             id: 2,
@@ -46,9 +47,11 @@ function Experience() {
             <div className="project-cards grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
                 
                 {
-                    cardItem.map(({id, logo, name}) => (
+                    cardItem.map(({id, logo, name, link}) => (
                         <div className='rounded-full w-[150px] h-[150px] shadow-xl hover:scale-105 duration-200 flex flex-col items-center justify-center' key={id}>
-                            <img src={logo} alt="" className='w-[100px] h-[100px] rounded-full border-[2px] object-cover'/>
+                            <a href={link} target="_blank" rel="noopener noreferrer">
+                                <img src={logo} alt="" className='w-[100px] h-[100px] rounded-full border-[2px] object-cover'/>
+                            </a>
                             
                             <p>{name}</p>
                         </div>
