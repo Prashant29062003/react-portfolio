@@ -7,10 +7,10 @@
 
 ```bash
 
-cd ~/Frontend
+cd ~/[folder name]
 
 ```
-- Replace `~/Frontend` with the actual path to your "Frontend" folder if it's located elsewhere.
+- Replace `~/[folder name]` with the actual path to your "Frontend" folder if it's located elsewhere.
 
 3. Verify You're in the Right Directory: To ensure you are in the correct folder, you can list the contents of the current directory using:
 ```bash
