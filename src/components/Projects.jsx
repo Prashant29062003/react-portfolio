@@ -10,7 +10,8 @@ function Projects() {
             id: 1,
             logo: pic,
             name: "Bhojan.",
-            link: "https://bhojan-del.netlify.app/"
+            link: "https://bhojan-del.netlify.app/",
+            source: "https://github.com/Prashant29062003/react-portfolio"
         },
         {
             id: 2,
@@ -47,16 +48,16 @@ function Projects() {
             <div className="project-cards grid grid-cols-1 md:grid-cols-3 gap-6">
                 
                 {
-                    cardItem.map(({id, logo, name, link}) => (
+                    cardItem.map(({id, logo, name, link, source}) => (
                         <div className='md:w-[300px] md:h-[300px] mt-4 rounded-lg shadow-xl p-1 hover:scale-105 duration-200 flex flex-col items-center justify-around' key={id}>
-                            <a href={link} target="_blankproject"><img src={logo} alt="" className='w-16 h-16 rounded-full border-[2px] object-cover'/></a>
+                            <a href={link} target="_blank"><img src={logo} alt="" className='w-16 h-16 rounded-full border-[2px] object-cover'/></a>
                             <div className='flex flex-col items-center text-center'>
                                 <h4 className='font-semibold text-xl mb-2'>{name}</h4>
                                 <p className='text-sm font-medium px-2 text-slate-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo molestiae, </p>
                             </div>
                             <div className='card-bottom grid grid-cols-2 gap-x-6'>
-                                <button class="btn bg-blue-500 hover:bg-blue-700 text-white rounded-md px-2 cursor-pointer"><a href="#">Link</a></button>
-                                <button class="btn bg-green-500 hover:bg-green-700 text-white rounded-md px-2 cursor-pointer"><a href="#">Source code</a></button>
+                                <button class="btn bg-blue-500 hover:bg-blue-700 text-white rounded-md px-2 cursor-pointer"><a href={link}>Link</a></button>
+                                <button class="btn bg-green-500 hover:bg-green-700 text-white rounded-md px-2 cursor-pointer"><a href={source}>Source code</a></button>
                             </div>
                             
                         </div>
