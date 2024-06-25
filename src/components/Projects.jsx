@@ -11,7 +11,7 @@ function Projects() {
             logo: pic,
             name: "Bhojan.",
             link: "https://bhojan-del.netlify.app/",
-            source: "https://github.com/Prashant29062003/react-portfolio"
+            source: "https://github.com/Prashant29062003/Bhojan-delivery"
         },
         {
             id: 2,
