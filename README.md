@@ -1,9 +1,9 @@
 # Instruction
 
-## Step-by-Step Terminal Commands for "Frontend" Folder
+## Step-by-Step Terminal Commands for "[folder name]" Folder
 1. Open Terminal: Launch your terminal application (e.g., Terminal on macOS, Command Prompt on Windows, or any preferred terminal emulator on Linux).
 
-2. Navigate to "Frontend" Folder: Change directory (cd) to the "Frontend" folder. If "Frontend" is located in your home directory and assuming it's spelled exactly as "Frontend", you would type:
+2. Navigate to "[folder name]" Folder: Change directory (cd) to the "Frontend" folder. If "Frontend" is located in your home directory and assuming it's spelled exactly as "Frontend", you would type:
 
 ```bash
 
@@ -22,7 +22,7 @@ ls
 
 4. Execute Commands as Needed: Perform any specific actions or commands required within the "Frontend" folder. For example, if you need to start a development server, build your frontend application, or run tests.
 
-5. Install Node modules in Frontend folder and run command this,
+5. Install Node modules in Frontend folder and run this command,
 ```bash
 npm install
 ```
@@ -32,9 +32,9 @@ npm install
 ```bash
 npm run dev
 ```
-## Link of website deploied
-[Prashant Kumar's Portfolio](https://portfolio-prashant29062003.netlify.app/)
+## Link for website 
+<a href="https://portfolio-prashant29062003.netlify.app/" target="_blank">Prashant Kumar's Portfolio</a>
 
 ## Link of source code
-[Prashant Kumar's Portfolio source code](https://github.com/Prashant29062003/react-portfolio)
+<a href="https://github.com/Prashant29062003/react-portfolio" target="_blank">Prashant Kumar's Portfolio source code</a>
 
