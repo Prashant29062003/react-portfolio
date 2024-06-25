@@ -26,6 +26,11 @@ ls
 ```bash
 npm install
 ```
+## Link of website deploied
+[Prashant Kumar's Portfolio](https://portfolio-prashant29062003.netlify.app/)
+
+## Link of source code
+[Prashant Kumar's Portfolio source code]([https://portfolio-prashant29062003.netlify.app/](https://github.com/Prashant29062003/react-portfolio))
 
 
 ## If you need to start a development server using npm:
