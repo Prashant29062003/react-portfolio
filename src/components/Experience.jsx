@@ -1,40 +1,31 @@
 import React from 'react'
 import { DiJava, DiReact } from 'react-icons/di'
-import { FaNodeJs } from 'react-icons/fa'
+import { FaNodeJs } from "react-icons/fa";
 import { SiExpress, SiPython } from 'react-icons/si'
-import pic from "../assets/img/bhojan_app_favicon.png"
+import { RiReactjsFill } from "react-icons/ri";
+import { FaPython, FaJava } from "react-icons/fa";
 
 function Experience() {
     const cardItem = [
+        
         {
             id: 1,
-            logo: pic,
-            name: "Bhojan.",
-            link: "https://bhojan-del.netlify.app/"
-        },
-        {
-            id: 2,
-            logo: SiExpress,
-            name: "Express"
-        },
-        {
-            id: 3,
-            logo: DiReact,
+            logo: RiReactjsFill,
             name: "ReactJS"
         },
         {
-            id: 4,
+            id: 2,
             logo: FaNodeJs,
             name: "nodeJS"
         },
         {
-            id: 5,
-            logo: SiPython,
+            id: 3,
+            logo: FaPython,
             name: "Python"
         },
         {
-            id: 6,
-            logo: DiJava,
+            id: 4,
+            logo: FaJava,
             name: "Java"
         },
     ]
@@ -47,10 +38,10 @@ function Experience() {
             <div className="project-cards grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
                 
                 {
-                    cardItem.map(({id, logo, name, link}) => (
+                    cardItem.map(({id, logo: Logo, name, link}) => (
                         <div className='rounded-full w-[150px] h-[150px] shadow-xl hover:scale-105 duration-200 flex flex-col items-center justify-center' key={id}>
                             <a href={link} target="_blank" rel="noopener noreferrer">
-                                <img src={logo} alt="" className='w-[100px] h-[100px] rounded-full border-[2px] object-cover'/>
+                                <Logo className='w-[100px] h-[100px] rounded-full border-[2px] object-cover'/>
                             </a>
                             
                             <p>{name}</p>
