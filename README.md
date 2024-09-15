@@ -35,6 +35,3 @@ npm run dev
 ## Link for website 
 <a href="https://portfolio-prashant29062003.netlify.app/" target="_blank">Prashant Kumar's Portfolio</a>
 
-## Link of source code
-<a href="https://github.com/Prashant29062003/react-portfolio" target="_blank">Prashant Kumar's Portfolio source code</a>
-
