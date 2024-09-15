@@ -34,7 +34,7 @@ function Experience() {
     <hr />
         <div name="Experience" className="projects max-w-screen-2xl container mx-auto p-4 md:px-20 my-10 z-10"> 
             <h1 className='font-bold text-2xl mb-5'>Exper<span className='text-red-600'>ience.</span></h1>
-            <p className='font-semibold'>Lorem ipsum dolor sit amet consectetur.</p>
+            <p className='font-semibold'></p>
             <div className="project-cards grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
                 
                 {
