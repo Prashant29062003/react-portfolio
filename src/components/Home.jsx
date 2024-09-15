@@ -47,7 +47,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="right md:w-1/2 flex justify-center items-center mt-10 md:ml-24">
-                    <img src={pic} className="rounded-full h-[350px] w-[350px] md:h-[450px] md:w-[450px] object-cover" alt="" />
+                    <img src={pic} className="rounded-full h-[250px] w-[250px] md:h-[450px] md:w-[450px] object-cover" alt="" />
                 </div>
             </div>
         </div>
