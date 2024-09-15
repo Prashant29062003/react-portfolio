@@ -2,7 +2,7 @@ import React from 'react'
 import { DiJava, DiReact } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { SiExpress, SiPython } from 'react-icons/si'
-import pic from "../assets/img/logo.jpg"
+import pic from "../assets/img/bhojan_app_favicon.png"
 
 function Experience() {
     const cardItem = [
