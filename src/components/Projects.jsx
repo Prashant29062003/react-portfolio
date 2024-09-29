@@ -9,6 +9,7 @@ import pic_4 from "../assets/img/Analog_Clock_favicon.png";
 import pic_5 from "../assets/img/Random_Quote_Favicon.png";
 import pic_6 from "../assets/img/picture_in_picture_favicon.png";
 import pic_7 from "../assets/img/Ankit_Portfolio_favicon.png";
+import pic_8 from "../assets/img/dictionary.png";
 
 function Projects() {
     const cardItem = [
@@ -73,6 +74,15 @@ function Projects() {
             link: "https://prashant29062003.github.io/Ankit-s-Portfolio/",
             source: "https://github.com/Prashant29062003/Ankit-s-Portfolio",
             desc: "Sample Portfolio: A showcase of diverse projects and development skills."
+            
+        },
+        {
+            id: 8,
+            logo: pic_8,
+            name: "Dictionary App",
+            link: "https://prashant29062003.github.io/dictionary-app/",
+            source: "https://github.com/Prashant29062003/Dictionary-app",
+            desc: "Dictionary app: Find any word and know their meanings."
             
         },
     ]
