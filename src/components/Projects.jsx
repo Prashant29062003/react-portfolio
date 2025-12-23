@@ -103,8 +103,8 @@ function Projects() {
                                 <p className='text-sm font-medium px-2 text-slate-600'>{desc}</p>
                             </div>
                             <div className='card-bottom grid grid-cols-2 gap-x-6'>
-                                <button class="btn bg-blue-500 hover:bg-blue-700 text-white rounded-md px-2 cursor-pointer"><a href={link}>Link</a></button>
-                                <button class="btn bg-green-500 hover:bg-green-700 text-white rounded-md px-2 cursor-pointer"><a href={source}>Source code</a></button>
+                                <button className="btn bg-blue-500 hover:bg-blue-700 text-white rounded-md px-2 cursor-pointer"><a href={link} target="_blank">Link</a></button>
+                                <button className="btn bg-green-500 hover:bg-green-700 text-white rounded-md px-2 cursor-pointer"><a href={source} target="_blank">Source code</a></button>
                             </div>
                             
                         </div>
