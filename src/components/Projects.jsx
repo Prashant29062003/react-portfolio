@@ -8,7 +8,7 @@ import pic_3 from "../assets/img/infinite_favicon.png";
 import pic_4 from "../assets/img/Analog_Clock_favicon.png";
 import pic_5 from "../assets/img/Random_Quote_Favicon.png";
 import pic_6 from "../assets/img/picture_in_picture_favicon.png";
-import pic_7 from "../assets/img/Ankit_Portfolio_favicon.png";
+import pic_7 from "../assets/img/sweet.png";
 import pic_8 from "../assets/img/Dictionary.png";
 
 function Projects() {
@@ -70,10 +70,10 @@ function Projects() {
         {
             id: 7,
             logo: pic_7,
-            name: "Sample Portfolio",
-            link: "https://prashant29062003.github.io/Ankit-s-Portfolio/",
-            source: "https://github.com/Prashant29062003/Ankit-s-Portfolio",
-            desc: "Sample Portfolio: A showcase of diverse projects and development skills."
+            name: "Sweet Shop Management System",
+            link: "https://my-sweet-shop.netlify.app/",
+            source: "https://github.com/Prashant29062003/sweet-shop-management-system",
+            desc: "The Sweet Shop Management System helps shop owners and staff manage sweets inventory efficiently while enforcing secure access rules for different user roles such as Admin, Staff, and Customer."
             
         },
         {
