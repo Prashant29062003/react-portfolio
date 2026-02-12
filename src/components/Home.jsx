@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import AvatarUtils from '../utils/AvatarUtils'
 import { Separator } from "@/components/ui/separator"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import {
@@ -17,8 +17,6 @@ import {
     ArrowRight,
     CheckCircle
 } from "lucide-react"
-import { ReactTyped } from "react-typed"
-import pic from "../assets/img/portfolio.jpg"
 
 function Home() {
     const [activeServiceFilter, setActiveServiceFilter] = useState('all');
@@ -122,20 +120,15 @@ function Home() {
             <div className="container mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-20 relative z-10">
                 {/* Profile Section - Top */}
                 <div className="flex justify-center mb-12 lg:mb-16">
-                    <div className="relative group">
-                        {/* Profile Card */}
-                        <Avatar className="relative h-24 w-24 sm:h-32 sm:w-32 md:h-40 md:w-40 lg:h-48 lg:w-48 ring-4 ring-border/20 shadow-xl group-hover:shadow-primary/20 transition-all duration-300 group-hover:scale-105">
-                            <AvatarImage src={pic} alt="Prashant Kumar" className="object-cover" />
-                            <AvatarFallback className="text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-br from-primary to-primary-50 text-primary-foreground">PK</AvatarFallback>
-                        </Avatar>
-                        
-                        {/* Status Badge */}
-                        <div className="absolute -bottom-1 -right-1">
-                            <Badge className="px-2 py-1 bg-gradient-to-r from-green-500 to-green-600 text-white text-xs font-medium shadow-md border-green-400">
-                                Open to Work
-                            </Badge>
-                        </div>
-                    </div>
+                    <AvatarUtils 
+                        src="/src/assets/img/portfolio.jpg"
+                        alt="Prashant Kumar"
+                        fallbackText="PK"
+                        size="4xl"
+                        showStatus={true}
+                        statusText="Open to Work"
+                        statusColor="green"
+                    />
                 </div>
 
                 {/* Hero Content */}
